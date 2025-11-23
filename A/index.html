@@ -3,21 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="mb-3">
-        <label class="visually-hidden" for="inputName"
-            >Hidden input label</label
-        >
-        <input
-            type="text"
-            class="form-control"
-            name="inputName"
-            id="inputName"
-            placeholder=""
-        />
+    <div class="container">
+        <header>
+            <div class="header-top">
+                <div class="logo">■ your name</div>
+                <nav class="nav">
+                    <a href="#home">Home</a>
+                    <span>/</span>
+                    <a href="#projects">Projects</a>
+                    <span>/</span>
+                    <a href="#articles">Articles</a>
+                    <span>/</span>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <h1>Frontend Developer</h1>
+            <p class="subtitle">Html only with proper layout, no styling</p>
+        </section>
+
+        <section class="content">
+            <div class="row">
+                <div class="column">
+                    <h2>Projects</h2>
+                    <ul class="project-list">
+                        <li>HTML Only Portfolio</li>
+                        <li>Calculator</li>
+                        <li>Quiz App</li>
+                        <li>Countdown Timer</li>
+                        <li>Product Upcoming Page</li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h2>Work Experience</h2>
+                    <div class="experience-item">
+                        <h3>roadspark</h3>
+                        <p>Built a solid foundation for frontend projects</p>
+                        <a href="#" class="link">Visit my profile</a>
+                    </div>
+                    <div class="experience-item">
+                        <h3>OpenSource Work</h3>
+                        <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+                        <a href="#" class="link">Visit my GitHub Profile</a>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h2>Education</h2>
+                    <div class="education-item">
+                        <h3>Graduated 3rd out of 4</h3>
+                        <p>CGPA. Won Acme Hackathon. Organized 50 sessions.</p>
+                    </div>
+                    <h3 class="courses-title">Courses I took:</h3>
+                    <ul class="courses-list">
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Software Architecture</li>
+                        <li>Database Management Systems</li>
+                        <li>Distributed Database Systems</li>
+                        <li>Discrete Mathematics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2>Reviews From my Teachers</h2>
+            <div class="review-cards">
+                <div class="review-card">
+                    <p>John doe was a brilliant student, always stood out with his assignments.</p>
+                    <p class="reviewer">— John Doe</p>
+                    <p class="title">Assistant Professor</p>
+                </div>
+                <div class="review-card">
+                    <p>John doe was a brilliant student, always stood out with his assignments.</p>
+                    <p class="reviewer">— John Doe</p>
+                    <p class="title">Assistant Professor</p>
+                </div>
+                <div class="review-card">
+                    <p>John doe was a brilliant student, always stood out with his assignments.</p>
+                    <p class="reviewer">— John Doe</p>
+                    <p class="title">Assistant Professor</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© all rights reserved 2025</p>
+        </footer>
     </div>
-    
 </body>
 </html>
